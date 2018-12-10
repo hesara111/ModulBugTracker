@@ -11,5 +11,6 @@ namespace KursModul.Net_2nd_mounth_
         public int number { get; set; }
         public string Description { get; set; }
         public string Status { get; set; }
+        public int Complexity { get; set; }
     }
 }
