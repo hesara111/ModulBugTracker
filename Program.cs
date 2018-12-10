@@ -10,7 +10,8 @@ namespace KursModul.Net_2nd_mounth_
     {
         static void Main(string[] args)
         {
-
+            
+            
         }
     }
 }
