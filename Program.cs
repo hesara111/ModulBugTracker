@@ -10,7 +10,7 @@ namespace KursModul.Net_2nd_mounth_
     {
         static void Main(string[] args)
         {
-
+            Console.Write("Dimas,ya v rot ebla gitHUBE");
         }
     }
 }
