@@ -26,19 +26,19 @@ namespace Alpha
                 foreach (var item in Features)
                 {
 
-                    Console.WriteLine($"Number of feature:{item.number},Description{item.description}, Status: {item.status}");
+                    Console.WriteLine($"Number of feature:{item.number},Description{item.description}, Status: {item.status},Time: {item.TimeOfExecution}");
                 flag = false;
                 }
                 foreach (var item in Bugs)
                 {
 
-                    Console.WriteLine($"Number of bug:{ item.number},Description{item.description}, Status: {item.status}");
+                    Console.WriteLine($"Number of bug:{ item.number},Description{item.description}, Status: {item.status},Time: {item.TimeOfExecution}");
                 flag = false;
                 }
                 foreach (var item in TechDeb)
                 {
 
-                    Console.WriteLine($"Number of TechnicalDebt:{ item.number},Description{item.description}, Status: {item.status}");
+                    Console.WriteLine($"Number of TechnicalDebt:{ item.number},Description{item.description}, Status: {item.status},Time: {item.TimeOfExecution}");
                 flag = false;
                 }
             if(flag)

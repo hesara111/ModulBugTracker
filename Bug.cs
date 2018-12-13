@@ -19,7 +19,8 @@ namespace Alpha
             : base(number, description, complexity)
         {
             priority = 2;
-            
+            TimeOfExecution = priority * complexity;
+
         }
         public override void ToString()
         {

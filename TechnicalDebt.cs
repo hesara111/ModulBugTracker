@@ -6,30 +6,24 @@ using System.Threading.Tasks;
 
 namespace Alpha
 {
-    class Feature : Task
+    class TechnicalDebt: Task
     {
-        public Bug referance { set; get; }
-        public Feature()
+        public TechnicalDebt()
         {
             priority = 1;
             TimeOfExecution = priority * complexity;
             status = "ToDo";
         }
-        public Feature(int number, string description, int complexity)
-            :base(number, description,complexity)
+        public TechnicalDebt(int number, string description, int complexity)
+            : base(number, description, complexity)
         {
+            priority = 1;
             TimeOfExecution = priority * complexity;
 
-            priority = 1;
         }
-        public string GetStatus()
-        {
-            return status;
-        }
-
         public override void ToString()
         {
-            Console.WriteLine($"Feature {this.number} description: {this.description}" +
+            Console.WriteLine($"Technical Debt {this.number} description: {this.description}" +
                 $", complexity: {this.complexity}, priority: {this.priority}, status: {this.status}");
         }
     }
